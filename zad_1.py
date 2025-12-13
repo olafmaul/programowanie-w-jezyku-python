@@ -1,4 +1,3 @@
-#%%
 names = ['Martin', 'Tom', 'Eva']
 
 for name in names:
