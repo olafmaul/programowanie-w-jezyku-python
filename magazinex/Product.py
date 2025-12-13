@@ -1,1 +1,1 @@
-import magazinex.utils
+import magazinex.utils as utils
