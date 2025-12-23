@@ -1,3 +1,5 @@
+# zad 4
+
 def sum_checker(x, y, z):
     return x + y >= z
 

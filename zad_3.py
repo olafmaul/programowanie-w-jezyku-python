@@ -1,3 +1,5 @@
+# zad 3
+
 def steven_even(x):
     return x % 2 == 0
 

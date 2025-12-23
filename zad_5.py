@@ -1,5 +1,4 @@
-# Stworzyć funkcję, która przyjmie 2 argumenty. Pierwszy typu list, a drugi typu int . Funkcja ma sprawdzić (zwracając typ logiczny bool),
-# czy lista z parametru pierwszego zawiera taką wartość jaką przekazano w parametrze drugim.
+# zad 5
 
 def list_checker(zbior_zakres: list, szukana_liczba: int):
     return szukana_liczba in zbior_zakres
