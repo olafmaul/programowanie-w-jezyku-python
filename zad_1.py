@@ -1,22 +1,5 @@
-class Student:
-   def __init__(self, name, marks):
-       # Inicjalizacja atrybutów name (imię) i marks (lista ocen)
-       self.name = name
-       self.marks = marks
+def print_name(name, surname):
+    print(f'Cześć {name} {surname}!')
 
 
-   def is_passed(self):
-       if not self.marks:
-           return False
-
-
-       average = sum(self.marks) / len(self.marks)
-       return average > 50
-
-
-student1 = Student("Maria Wolska", [22, 33, 80, 90])
-print(f"Student {student1.name} zdał? {student1.is_passed()}")
-
-
-student2 = Student("Mariusz Kanol", [22, 14, 65, 40])
-print(f"Student {student2.name} zdał? {student2.is_passed()}")
+print_name('Olaf', 'Maul')
